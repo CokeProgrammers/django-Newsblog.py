@@ -132,9 +132,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # for testing to get reset link in console
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'shivamrathourms744@gmail.com'
-EMAIL_HOST_PASSWORD = 'nricjmgelsufyctc'
+EMAIL_HOST_USER = 'yourgmail@gmail.com'
+EMAIL_HOST_PASSWORD = 'your_app_host_password'
