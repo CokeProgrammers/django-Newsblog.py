@@ -9,7 +9,7 @@ from .serializers import *
 from rest_framework import viewsets
 from rest_framework.permissions import IsAdminUser
 
-API_KEY = '43cdedb11af9480bad3757994bc8f21d'
+API_KEY = 'ENTER_NEWS_API_KEY'
 
 @login_required(login_url='/login/')
 def home(request):
