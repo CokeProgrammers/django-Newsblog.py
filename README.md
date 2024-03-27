@@ -2,12 +2,11 @@
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone https://github.com/CodeChanakyaa/django-Taskcrudapi.py
+    $ git clone https://github.com/CokeProgrammers/django-Newsblog.py.git
 
 Now change directory to:
 
-    $ cd django-Taskcrudapi.py
-    $ cd CrudApi
+    $ cd django-Newsblog.py
     
 Activate the virtualenv for your project.
     
