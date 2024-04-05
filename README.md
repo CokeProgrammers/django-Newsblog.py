@@ -16,7 +16,7 @@ Install project dependencies:
     
 Then simply apply the migrations:
 
-    $ python manage.py makemigrations    
+    $ python manage.py makemigrations 
     $ python manage.py migrate
 
 If above migrate command not working, run this command :
